@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+M.render	lua/wavedrom/init.lua	/^function M.render(path)$/;"	f
+M.render	lua/wavedrom/render.lua	/^function M.render(path)$/;"	f
+M.setup	lua/wavedrom/init.lua	/^function M.setup(opts)$/;"	f
+autosave	lua/wavedrom/render.lua	/^local function autosave(path)$/;"	f
+has_signal	lua/wavedrom/render.lua	/^local function has_signal(path)$/;"	f
+local ok, sysjob 	lua/wavedrom/render.lua	/^  local ok, sysjob = pcall(vim.system, cmd, { text = true, cwd = vim.fn.fnamemodify(path, ":h") }, function(res)$/;"	f
+notify	lua/wavedrom/render.lua	/^local function notify(msg, level)$/;"	f
+on_done	lua/wavedrom/render.lua	/^local function on_done(res, png)$/;"	f
+open_png	lua/wavedrom/render.lua	/^local function open_png(png)$/;"	f

@@ -36,6 +36,8 @@ nnoremap <leader>wf :WaveDrom<CR>
 - 编辑 WaveDrom JSON 时执行 `:WaveDrom`（或你的映射键），渲染成功后自动打开 PNG
 - `:WaveDrom path/to/xxx.json` 可渲染指定文件
 - 仅手动触发；文件需包含 `"signal"` 字段才认为是 WaveDrom JSON
+- 渲染前本地校验 JSON 语法：有语法错误时不启动渲染，错误（含行列定位）写入
+  quickfix 并自动打开窗口，回车跳转到出错位置；渲染成功后自动清理相应条目
 
 ## 配置
 
